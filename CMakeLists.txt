@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-set(CMAKE_TOOLCHAIN_FILE "C:/vcpkg/scripts/buildsystems/vcpkg.cmake")
-set(CMAKE_PREFIX_PATH ${CMAKE_PREFIX_PATH} "C:/vcpkg/installed/x64-windows")
+set(CMAKE_TOOLCHAIN_FILE "C:/Users/Arnav/vcpkg/scripts/buildsystems/vcpkg.cmake")
 
 project(BasicServerWithCrow LANGUAGES CXX)
 

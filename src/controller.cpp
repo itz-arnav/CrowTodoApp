@@ -89,7 +89,7 @@ void Controller::readAllItems(crow::response &res) {
         itemJson["description"] = items[index]->getDescription();
         itemJson["status"] = static_cast<int>(items[index]->getItemStatus());
         itemJson["favourite"] = items[index]->isFavourite();
-        responseJson["items"][index] = std::move(itemJson);
+        responseJson["items"][(unsigned int)index] = std::move(itemJson);
     }
 
     res.code = 200;

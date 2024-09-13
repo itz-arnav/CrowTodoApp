@@ -1,0 +1,6 @@
+E:/CPP/CrowTodoApp/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Release/CMakeFiles/BasicServerWithCrow.dir
+E:/CPP/CrowTodoApp/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Release/CMakeFiles/edit_cache.dir
+E:/CPP/CrowTodoApp/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Release/CMakeFiles/rebuild_cache.dir
+E:/CPP/CrowTodoApp/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Release/CMakeFiles/list_install_components.dir
+E:/CPP/CrowTodoApp/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Release/CMakeFiles/install.dir
+E:/CPP/CrowTodoApp/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Release/CMakeFiles/install/local.dir
