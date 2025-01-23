@@ -1,6 +1,7 @@
 #include "../include/controller.h"
 
-Controller::Controller() : database(std::make_unique<Database>("todoappdemo.db")) {}
+Controller::Controller() : database(std::make_unique<Database>("todoappdemo.db")) {
+}
 
 Controller::~Controller() {}
 

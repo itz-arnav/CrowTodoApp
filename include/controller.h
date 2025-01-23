@@ -1,7 +1,8 @@
 #pragma once
 #include <memory>
-#include "database.h"
 #include <crow.h>
+#include <crow/middlewares/cors.h>
+#include "database.h"
 #include "db_constants.h"
 
 class Controller {
@@ -12,7 +13,7 @@ public:
 
 private:
     std::unique_ptr<Database> database;
-    crow::SimpleApp app;
+    crow::App<crow::CORSHandler> app;
 
     void createItem(const crow::request& req, crow::response& res);
     void readAllItems(crow::response& res);
